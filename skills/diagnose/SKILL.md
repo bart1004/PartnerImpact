@@ -1,11 +1,11 @@
 ---
 name: diagnose
-description: "This skill should be used when the user asks \"why isn't X producing\", \"where did this partner stall\", \"we have partners but no pipeline\" or \"where is our funnel leaking\". It finds which conversion is failing for one partner, one motion or the whole base, and whether the cause is the partner, the program or the incentives."
+description: "Use this skill when partners are not producing and the cause is unclear: why is X not producing, where did this partner stall, we have partners but no pipeline, where is the funnel leaking, partner deals are not closing. It finds which conversion is failing for one partner, one motion or the whole base, and whether the cause is the partner, the program or the incentives."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Diagnose the stall the user described. Run this in the conversation; do not delegate to a subagent.

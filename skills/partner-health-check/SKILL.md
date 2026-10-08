@@ -1,11 +1,11 @@
 ---
 name: partner-health-check
-description: "This skill should be used when the user asks \"how is X doing\", \"is this partner at risk\", \"should we worry about X\", or wants a health read on a partner. Six red/amber/green reads, the rule that fired, and the one move to make this week. Works for any partner type, and \"don't know\" is a valid answer to every question."
+description: "Use this skill for any question about how one existing partner is doing: how is X doing, is X at risk, should we worry about X, X has gone quiet, their sponsor left, a health read on X. It rates six signals red, amber or green on the connector, applies the rules that decide at-risk, and names the one move to make this week. Works for any partner type, and not knowing is a valid answer to every question."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Read the health of the partner the user named. Run this in the conversation; do not delegate to a

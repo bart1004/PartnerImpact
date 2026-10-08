@@ -1,11 +1,11 @@
 ---
 name: partner-maturity-check
-description: "This skill should be used when the user asks \"how mature is our partner function\", \"assess our partner program\", \"how do we compare with companies our size\", \"what should we fix first\", or wants the PartnerImpact Partner Program Maturity Assessment. Quick (twelve questions, about five minutes) or full (forty-eight, one domain at a time), ending on the binding constraint: the one thing to fix before anything downstream will stick."
+description: "Use this skill for any question about the state of the user's own partner function or program: how mature are we, assess or audit our partner program, how do we compare with companies our size, what should we fix first, where are the gaps. It runs the PartnerImpact Partner Program Maturity Assessment, quick (twelve questions, about five minutes) or full (forty-eight, one domain at a time), and ends on the binding constraint: the one thing to fix before anything downstream will stick."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Assess the user's own partner function. Run this in the conversation; do not delegate to a

@@ -1,11 +1,11 @@
 ---
 name: research
-description: "This skill should be used when the user asks to \"research X\", \"who does X partner with\", \"what is X's ecosystem\", \"look up X before we partner\" or \"build an evidence log for X\". It gathers public evidence on a company and grades it A/B/C, without scoring or recommending."
+description: "Use this skill to find out about a company before a partnership decision: research X, who does X partner with, what is X's ecosystem, look up X, build an evidence log for X. It gathers public evidence and grades each claim A, B or C with its source, without scoring or recommending."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 If the request could be more than one company, or is empty, ask first in the conversation (a URL or

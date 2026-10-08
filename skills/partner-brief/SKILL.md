@@ -1,11 +1,11 @@
 ---
 name: partner-brief
-description: "This skill should be used when the user wants \"a one-pager on X\", \"a partner brief\", or a quick profile and go/no-go on a single partner built from public evidence plus a few questions."
+description: "Use this skill for a short written profile of one partner or prospect: a one-pager, a partner brief, a summary for a leadership meeting, or a quick profile with a go or no-go. It is built from public evidence plus a few questions."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Brief the partner the user named. Run this in the conversation; do not delegate to a subagent.

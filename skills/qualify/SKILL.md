@@ -1,11 +1,11 @@
 ---
 name: qualify
-description: "This skill should be used when the user asks \"should we partner with X\", \"qualify X\", \"score X\", \"is X a good fit\" or wants a go/no-go on a prospective partner. It asks about fit and the deal-breakers, scores against the ideal partner profile and its anti-fit gate, and returns go, conditional go, not yet or no-go."
+description: "Use this skill for any decision about taking on, signing or keeping a specific partner: should we partner with, sign, onboard or resell through X, is X a good fit, qualify or score X, go or no-go on X. Use it even when the user lists the facts and only asks for a verdict. Run it before answering, because it checks five deal-breakers (channel conflict, brand risk, no new reach, no senior owner, economics underwater) ahead of any scoring, then returns go, conditional go, not yet or no-go against the ideal partner profile."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Qualify the company the user named. Run this in the conversation; do not delegate to a subagent.

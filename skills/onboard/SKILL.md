@@ -1,11 +1,11 @@
 ---
 name: onboard
-description: "This skill should be used when the user asks to \"onboard X\", \"build a 90-day plan for X\", \"is X's onboarding on track\", \"why isn't X producing\" or \"why isn't X activating\" after signing."
+description: "Use this skill once a partner has signed: onboard X, a 90-day or 30-60-90 plan, a ramp or enablement plan, certification milestones, is onboarding on track, why a signed partner is not activating or producing. It builds a dated plan with checkable milestones and owners on both sides, sized to the people the user actually has."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Onboard the partner the user named. Run this in the conversation; do not delegate to a subagent.

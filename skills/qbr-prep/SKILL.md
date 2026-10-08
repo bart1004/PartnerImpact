@@ -1,11 +1,11 @@
 ---
 name: qbr-prep
-description: "This skill should be used when the user asks to \"prep the QBR for X\", \"how is X performing against plan\", \"build a scorecard for X\" or \"should we renew or prune X\"."
+description: "Use this skill for any partner review or performance question: prepare a QBR or business review, attainment against plan or target, a partner scorecard, where a review conversation should start, renew or prune a partner. Use it whenever the user gives targets and actuals for a partner. It bands attainment on the connector, reads partner health, and ends on at most three asks with owners on both sides."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Prep the QBR for the partner the user named. Run this in the conversation; do not delegate to a subagent.

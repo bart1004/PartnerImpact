@@ -1,11 +1,11 @@
 ---
 name: partner-comms
-description: "This skill should be used when the user asks to \"draft a note to X\", \"write the JVP for X\", \"follow up with X\", \"write the exec update on the partnership\", or needs a hard partner message such as a demotion or exit."
+description: "Use this skill to write any message to or about a partner: a note or email to a partner, a follow-up, the joint value proposition, an executive update on a partnership, and hard messages such as a tier demotion, a missed commitment or an exit."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Draft the message the user asked for. Run this in the conversation; do not delegate to a subagent.

@@ -1,11 +1,11 @@
 ---
 name: cosell-plan
-description: "This skill should be used when the user asks to \"build a co-sell plan with X\", \"map accounts with X\", \"work this deal with X\", \"write rules of engagement\" or \"set up deal registration\", or asks why the field isn't working a partner."
+description: "Use this skill for any joint deal or co-sell question with a partner: should this co-sell deal be in the forecast, is this joint opportunity real, build a co-sell plan, map accounts with a partner, work a deal together, rules of engagement, deal registration, or why the field is not working a partner. It scores a named deal on the Co-sell Deal Qualifier through the connector and turns the gaps into next steps."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Plan co-sell with the partner the user named. Run this in the conversation; do not delegate to a subagent.

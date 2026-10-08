@@ -1,11 +1,11 @@
 ---
 name: partner-os
-description: "This skill should be used when the user asks \"what can you help me with\", \"where do I start\", \"help me with my partners\", \"where does this partner stand\", \"what should I do next with X\", \"what is stalled\", or is unsure which PartnerImpact skill fits. It offers the handful of jobs the plugin does in plain words, places a partner on the lifecycle, and routes to the right workflow instead of doing the work itself."
+description: "Use this skill when the user wants help with partners but has not said with what: what can you help me with, where do I start, help me with my partners, where does this partner stand, what should I do next with X, what is stalled. It offers the jobs the plugin does in plain words, places a partner on the lifecycle and routes to the right skill instead of doing the work itself."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Route the user's request through the partner lifecycle. Do this yourself: do not delegate to a

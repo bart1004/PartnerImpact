@@ -1,11 +1,11 @@
 ---
 name: partner-strategy
-description: "This skill should be used when the user asks to \"build a partner strategy\", \"where should we play with partners\", \"how should we segment partners\", \"should we build, partner or buy\", or needs the leverage thesis for a partner program."
+description: "Use this skill for partner strategy questions: build a partner strategy, where to play with partners, which partner types to prioritise, how to segment partners, build versus partner versus buy for a capability, or the leverage thesis for a partner program."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Build a partner strategy for the user's own business. Run this in the conversation; do not delegate to a

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1
+
+- The 14 workflow skills have new descriptions, so they load for questions asked in plain words
+  and not only for the phrases they used to list. In a fixed test of ten partner questions the
+  skills loaded in 19 of 20 runs, against 9 of 20 before.
+- An `evals/` folder holds that test: ten scenarios with known right answers, for use with
+  `claude plugin eval`. It is not part of the packaged plugin.
+
 ## 1.0.0
 
 First release.

@@ -1,11 +1,11 @@
 ---
 name: program-design
-description: "This skill should be used when the user asks to \"design our partner program\", \"set up tiers\", \"how should we tier our partners\", \"design partner incentives\", \"plan MDF\", \"design the certification path\" or \"check our tier economics\"."
+description: "Use this skill to design or change a partner program: tiers and tier criteria, benefits, incentives, MDF, a certification path, tier economics, or how to tier an existing partner base."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 Design the part of the program the user asked about. Run this in the conversation; do not delegate to a
