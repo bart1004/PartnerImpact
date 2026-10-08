@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+
+- `partner-numbers` now loads for pipeline and revenue-target questions that do not mention
+  partners first. In the test for that question it loaded in 4 of 4 runs, against 1 of 5 before.
+
 ## 1.0.1
 
 - The 14 workflow skills have new descriptions, so they load for questions asked in plain words

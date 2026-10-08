@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 If the request could be more than one company, or is empty, ask first in the conversation (a URL or

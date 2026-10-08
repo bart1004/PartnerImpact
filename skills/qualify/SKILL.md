@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 Qualify the company the user named. Run this in the conversation; do not delegate to a subagent.

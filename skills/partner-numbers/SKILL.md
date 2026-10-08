@@ -1,11 +1,11 @@
 ---
 name: partner-numbers
-description: "Use this skill for every partner question that needs a figure, even when the arithmetic looks simple enough to do directly: the rev-share, margin or referral fee a partner can be paid, pipeline or revenue targets, program ROI or payback, MDF split, partner manager capacity, churn or concentration risk, build versus partner versus buy, KPIs. It runs the matching PartnerImpact calculator on the connector instead of working by hand, shows which inputs were the user's and which were defaults, and leads with the decision the number supports."
+description: "Use this skill for every question that needs a partner-related figure, even when the arithmetic looks simple enough to do directly: how much pipeline a revenue target needs and how much of it partners must source, the rev-share, margin or referral fee a partner can be paid, program ROI or payback, MDF split, partner manager capacity, churn or concentration risk, build versus partner versus buy, KPIs. It runs the matching PartnerImpact calculator on the connector instead of working by hand, shows which inputs were the user's and which were defaults, and leads with the decision the number supports."
 metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 Answer the partner number the user asked for. Run this in the conversation; do not delegate to a

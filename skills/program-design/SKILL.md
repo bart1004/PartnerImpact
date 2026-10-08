@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 Design the part of the program the user asked about. Run this in the conversation; do not delegate to a
