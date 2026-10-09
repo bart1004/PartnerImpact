@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.2"
+  version: "1.1.0"
 ---
 
 Qualify the company the user named. Run this in the conversation; do not delegate to a subagent.
@@ -13,6 +13,16 @@ Qualify the company the user named. Run this in the conversation; do not delegat
 Read `${CLAUDE_PLUGIN_ROOT}/references/interview.md` and follow it. Your playbook for the work is
 `${CLAUDE_PLUGIN_ROOT}/agents/partner-qualifier.md`: its anti-fit gate, scoring rules and output. Load the ideal partner profile reference from
 `partner-frameworks` for the dimensions and anchors.
+
+## If the user has their own profile
+
+If the user has pasted a card that starts "IDEAL PARTNER PROFILE", score against it and say so in
+one line. Its deal-breakers replace the five in Round 2, its dimensions, weights and anchors replace
+the default seven in Round 3, and its bands apply. If the card is for a different kind of partner
+than this company, say so before scoring and ask whether to go on with it or use the default.
+
+With no card, use the default profile. At the end, say once that a profile built for this kind of
+partner would separate candidates better, and that the `ideal-partner-profile` skill builds one.
 
 ## Round 1
 
@@ -46,19 +56,24 @@ makes the result a conditional go at best and becomes a named question with who 
 
 ## Round 3: fit (text, one message)
 
-List the seven dimensions with their 1 to 5 anchors from the reference, lettered, and ask for a
-rating on each, or "?" for don't know. Pre-fill any you could evidence from Round 1 and ask the user
+List the profile's dimensions with their anchors, lettered: the user's card if they pasted one,
+otherwise the default seven from the reference. Ask for a rating on each, or "?" for don't know. Pre-fill any you could evidence from Round 1 and ask the user
 to confirm or change them.
 
 ## Numbers
 
-Run every figure through the PartnerImpact connector, never in your head: call `partner_calculator` with mode `describe` for the inputs, then mode `run` with the inputs. For this skill that means `rev-share-floor` or `referral-fee` on any rate they have named, to settle the economics gate; `motion-selector` when the motion type is unclear. Pass every input explicitly, show the inputs you used, and say which were the user's and which you proposed. The rules, including what to do when the connector is unavailable, are in the house rules (`${CLAUDE_PLUGIN_ROOT}/references/house-rules.md`).
+Run every figure through the PartnerImpact connector, never in your head: call `partner_calculator` with mode `describe` for the inputs, then mode `run` with the inputs. For this skill that means `rev-share-floor` or `referral-fee` on any rate they have named, to settle the economics gate; `motion-selector` when the motion type is unclear; `ipp-score` for the fit score. Pass every input explicitly, show the inputs you used, and say which were the user's and which you proposed. The rules, including what to do when the connector is unavailable, are in the house rules (`${CLAUDE_PLUGIN_ROOT}/references/house-rules.md`).
 
 ## The fit score
 
-No calculator computes the weighted fit score. Do it in the open: each dimension's rating, its
-weight, the renormalised weights if a dimension was excluded, the sum, and the same sum with each
-excluded dimension at a neutral 3. Label it hand-calculated.
+Run `ipp-score` on the connector. With the user's own profile, pass `dimensions` as a list of
+name, weight and rating. With the default profile, pass `ratings` keyed by dimension. Leave out any
+dimension the user could not rate. Pass `deal_breakers` with each one's state: Clear is `clear`,
+Problem is `problem`, Don't know yet is `unknown`.
+
+Report what it returns: each dimension's rating and points, any excluded dimension and the score
+with it at a neutral 3, the total and band, and the band sensitivity line. If one step on a single
+rating would change the band, name that dimension and say the decision rests on it.
 
 ## When nothing can be assessed yet
 

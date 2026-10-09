@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.2"
+  version: "1.1.0"
 ---
 
 # Partner Frameworks
@@ -42,6 +42,11 @@ during an assessment. The `partner-maturity-check` skill runs it.
 A weighted scoring model for partner fit, plus an anti-fit / where-we-won't-play gate. Use for
 qualification and go/no-go decisions. Output is a score, a band, and a decision.
 
+The default profile is one set of seven dimensions. A profile built for one kind of partner
+separates candidates better: `${CLAUDE_PLUGIN_ROOT}/skills/partner-frameworks/references/profile-by-motion.md`
+holds a starter per motion with weights, 1-3-5 anchors and deal-breakers, and the
+`ideal-partner-profile` skill turns one into the user's own.
+
 ### 3. Partner Lifecycle Bowtie
 `${CLAUDE_PLUGIN_ROOT}/skills/partner-frameworks/references/lifecycle-bowtie.md`
 
@@ -66,6 +71,7 @@ this table is a guide to which one answers which question.
 |---|---|---|
 | Partner Health | Apply the canonical health model: six red/amber/green reads and the three rules that decide at-risk | `partner-health` |
 | Partner Program Maturity Score | Turn 1-10 ratings into domain scores, stage deltas, the gates now closed and the binding constraint | `maturity-score` |
+| Ideal Partner Profile Score | Score one partner against the default profile or the user's own dimensions and weights, with deal-breakers checked first and the distance to the band edge shown | `ipp-score` |
 | Recruitment-to-Activation Funnel | Work back from producing partners to the recruits it takes, and find the weakest stage | `recruitment-funnel` |
 | Pipeline Leak Finder | The partner funnel against a revenue target: required versus current volume at every stage | `pipeline-leak` |
 | Partner Program Simulator | Where the program lands if recruitment, activation, productivity and churn stay as they are | `program-simulator` |

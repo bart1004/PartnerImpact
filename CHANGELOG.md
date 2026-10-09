@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.0
+
+- New skill `ideal-partner-profile`: builds your own selection criteria for one kind of partner.
+  It starts from a starter for that motion, sets weights that sum to 100, writes 1-3-5 anchors in
+  your own terms, adds deal-breakers, and tests the result on partners you already know. The
+  profile comes out as a card to keep and paste into a later session.
+- `qualify` scores against a pasted profile card when there is one, and against the default
+  profile when there is not.
+- The fit score now runs on the connector (`ipp-score`) and is no longer added up by hand. It also
+  reports how close a score sits to a band edge.
+- Starter profiles for six kinds of partner: referrers, resellers, technology partners,
+  marketplaces, service firms and strategic alliances.
+
 ## 1.0.2
 
 - `partner-numbers` now loads for pipeline and revenue-target questions that do not mention

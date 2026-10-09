@@ -78,7 +78,7 @@ jobs:
           for d in skills/*/; do
             [ -f "$d/SKILL.md" ] || { echo "::error::$d has no SKILL.md"; fail=1; }
           done
-          for s in partner-os research qualify partner-brief partner-strategy program-design onboard cosell-plan qbr-prep partner-comms diagnose partner-health-check partner-maturity-check partner-numbers; do
+          for s in partner-os research qualify partner-brief partner-strategy program-design onboard cosell-plan qbr-prep partner-comms diagnose partner-health-check partner-maturity-check partner-numbers ideal-partner-profile; do
             grep -qE 'references/(house-rules|interview)\.md|agents/partner-researcher|skills/qualify/SKILL\.md' "skills/$s/SKILL.md" || { echo "::error::skills/$s loads no rules"; fail=1; }
           done
           exit $fail

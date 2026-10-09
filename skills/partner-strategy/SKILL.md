@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.2"
+  version: "1.1.0"
 ---
 
 Build a partner strategy for the user's own business. Run this in the conversation; do not delegate to a

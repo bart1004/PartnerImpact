@@ -26,7 +26,9 @@ Score each 1–5, then apply the weight. Total is out of 100.
 | **Delivery capability** | Can they implement, support, and retain the customer | 10% |
 | **Economic viability** | Does the unit economics work for both sides after rev-share/margin | 10% |
 
-**Score = Σ (dimension score × weight) × 20**, giving a 0–100 result.
+**Score = Σ (dimension score × weight) × 20**, giving a 0–100 result. The `ipp-score` calculator on
+the connector computes it, for this default profile or for a profile the user built for one kind of
+partner (see `profile-by-motion.md`).
 
 ### When a dimension can't be evidenced
 

@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.0.2"
+  version: "1.1.0"
 ---
 
 Route the user's request through the partner lifecycle. Do this yourself: do not delegate to a
@@ -27,8 +27,8 @@ then one follow-up choice if they pick "something else"):
   a target
 
 "Something else" covers: preparing a review meeting with a partner, working a deal together,
-writing a message to a partner or to your own leadership, and finding out why partners are not
-producing. Name these only if asked.
+writing a message to a partner or to your own leadership, finding out why partners are not
+producing, and setting the criteria for choosing partners of one kind. Name these only if asked.
 
 Once they pick, say in one line what will happen next and roughly how many questions it takes, then
 start that workflow. Use the skill's name only in the handover, never as the menu.
@@ -64,13 +64,15 @@ question:
 - "Partners sign and go quiet", "no partner pipeline": the `diagnose` skill.
 - "Is our partner function any good?", "what should we fix first?": the `partner-maturity-check` skill.
 - A question with a number in it: the `partner-numbers` skill.
+- "What should we look for in a reseller?", "how do we choose between these candidates?": the
+  `ideal-partner-profile` skill, then `qualify` for each candidate.
 
 ## Stage to skill
 
 | Stage | Run | Role |
 |---|---|---|
 | Recruit | the `research` skill, the `partner-strategy` skill | `partner-researcher`, `partner-strategist` |
-| Qualify | the `qualify` skill, the `partner-brief` skill | `partner-qualifier` |
+| Qualify | the `ideal-partner-profile` skill for the criteria, the `qualify` skill, the `partner-brief` skill | `partner-qualifier` |
 | Onboard | the `onboard` skill, the `program-design` skill | `partner-enablement-lead`, `partner-strategist` |
 | Co-sell | the `cosell-plan` skill | `cosell-lead` |
 | Grow | the `qbr-prep` skill, the `partner-health-check` skill | `partner-performance` |

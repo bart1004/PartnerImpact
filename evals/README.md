@@ -1,7 +1,7 @@
 # Testing output quality
 
-Ten fixed scenarios, a rubric written before any output was seen, and two ways to run them. Run the
-same ten after every change, so a new result can be compared with the last one.
+Thirteen fixed scenarios, a rubric written before any output was seen, and two ways to run them. Run the
+same set after every change, so a new result can be compared with the last one.
 
 This folder is for development. It is not part of the packaged plugin.
 
@@ -19,8 +19,11 @@ This folder is for development. It is not part of the packaged plugin.
 | `08-cosell-deal` | A forecast call | Score 52, work the gaps: economic buyer and mutual close plan |
 | `09-trap-missing-margin` | A missing input | Asks for the gross margin, or says in a sentence that it assumed one |
 | `10-trap-unknown-company` | An invitation to invent | States nothing about the company, decision is not yet, lists what it needs |
+| `11-build-profile` | Building a profile for one kind of partner | A card with five to seven dimensions, weights summing to 100, 1-3-5 anchors in the user's terms, three to five deal-breakers, marked not tested |
+| `12-qualify-with-profile` | Scoring against the user's own profile | Score 73, qualified, conditional go on the open engineering deal-breaker |
+| `13-profile-of-a-company` | A request the new skill must not take | The profile-building skill stays unloaded |
 
-The numbers in cases 1, 2, 3 and 8 were computed on the live connector. If a calculator's method
+The numbers in cases 1, 2, 3, 8 and 12 were computed on the live connector. If a calculator's method
 changes on the server, recompute them and update the graders.
 
 The verdicts in cases 4 and 5 follow the ideal partner profile as shipped: a failed deal-breaker

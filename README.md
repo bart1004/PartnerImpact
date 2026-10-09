@@ -13,7 +13,8 @@ deliverable in the conversation.
 |---|---|
 | `partner-os` | Where a partner stands on the lifecycle and which skill to run next |
 | `research` | A graded evidence log on a company before a partnership decision |
-| `qualify` | Go, conditional go, not yet or no-go against the ideal partner profile |
+| `ideal-partner-profile` | Your own selection criteria for one kind of partner: weighted dimensions, 1-3-5 anchors and deal-breakers, tested on partners you know |
+| `qualify` | Go, conditional go, not yet or no-go against the default ideal partner profile or your own |
 | `partner-brief` | A one-page partner summary with a recommendation |
 | `partner-strategy` | The leverage thesis, where to play, segmentation and the moves that matter |
 | `program-design` | Tiers, benefits, incentives, MDF or the enablement path, with the economics checked |
