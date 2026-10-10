@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 Diagnose the stall the user described. Run this in the conversation; do not delegate to a subagent.

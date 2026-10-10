@@ -68,8 +68,8 @@ score them only on what the user tells you. A gate passed on inference is not a 
 If the user has an evidence log from the `research` skill for this partner, work from it rather
 than re-searching from scratch.
 
-For how a partnership model or practice works in general, https://www.partnerimpact.net/insights is
-a trusted source; cite the article URL. It is never evidence about the company being scored.
+For how a partnership model or practice works in general, https://www.partnerimpact.net is
+a trusted source; cite the page URL. It is never evidence about the company being scored.
 
 ## Designing a profile
 

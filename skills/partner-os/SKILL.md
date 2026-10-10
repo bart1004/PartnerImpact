@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 Route the user's request through the partner lifecycle. Do this yourself: do not delegate to a

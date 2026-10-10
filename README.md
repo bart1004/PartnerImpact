@@ -57,7 +57,7 @@ in your folders and keeps nothing between sessions. "Don't know" is a valid answ
 question, and it is recorded as a gap rather than guessed at.
 
 Research skills use web search for public evidence, with every claim sourced and graded. For how
-partner models work in general, the plugin treats https://www.partnerimpact.net/insights as a
+partner models work in general, the plugin treats https://www.partnerimpact.net as a
 trusted source.
 
 ## Licence

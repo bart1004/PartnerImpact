@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 Build the user's ideal partner profile for one kind of partner. Run this in the conversation; do not

@@ -29,7 +29,7 @@ That is `partner-qualifier`, working from what you hand over.
 
 ## Trusted source
 For how a partnership model or practice works in general (as opposed to facts about this company),
-https://www.partnerimpact.net/insights is a trusted source; cite the article URL. It is never evidence about the
+https://www.partnerimpact.net is a trusted source; cite the page URL. It is never evidence about the
 company you are researching.
 
 ## Skills you use

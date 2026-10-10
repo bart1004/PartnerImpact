@@ -83,10 +83,10 @@ jobs:
           done
           exit $fail
 
-      - name: The insights source is named
+      - name: The trusted source is named
         run: |
           for f in references/house-rules.md skills/partner-research/references/evidence-sourcing.md agents/partner-researcher.md agents/partner-qualifier.md agents/partner-strategist.md; do
-            grep -q 'partnerimpact.net/insights' "$f" || { echo "::error::$f does not name the insights source"; exit 1; }
+            grep -qE 'https://www\.partnerimpact\.net([^/a-zA-Z]|$)' "$f" || { echo "::error::$f does not name the trusted source"; exit 1; }
           done
 
       - name: Licensing present

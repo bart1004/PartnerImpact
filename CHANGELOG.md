@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2
+
+- The trusted source on partnership practice is now the whole site, https://www.partnerimpact.net,
+  where it was the insights section only. Claims drawn from it are cited by page URL.
+
 ## 1.1.1
 
 - The twelve units of the maturity assessment are now called assessment domains, so that "domains"

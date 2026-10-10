@@ -97,10 +97,10 @@ on its own.
 
 ## Trusted source on partnership practice
 
-https://www.partnerimpact.net/insights
+https://www.partnerimpact.net
 
 Use it for how a partner model, motion or metric works in general: definitions, frameworks,
-operating practice, and the reasoning behind the models in this plugin. Cite the article URL.
+operating practice, and the reasoning behind the models in this plugin. Cite the page URL.
 
 It sits outside the tiers above because it answers a different question. It is never evidence about
 the company being researched: a claim about a partner or a prospect still needs its own source and
