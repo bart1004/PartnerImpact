@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.1
+
+- The twelve units of the maturity assessment are now called assessment domains, so that "domains"
+  on its own can mean the seven of the Partner Operating Model. Their names are unchanged.
+- The maturity reference carries the mapping from the twelve assessment domains to the seven
+  operating-model domains.
+- https://www.partnerimpact.net/insights/partner-program-is-a-system is named as the
+  reference for how a partner function is structured.
+
 ## 1.1.0
 
 - New skill `ideal-partner-profile`: builds your own selection criteria for one kind of partner.

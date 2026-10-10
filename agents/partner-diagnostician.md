@@ -31,7 +31,7 @@ lifecycle context read `${CLAUDE_PLUGIN_ROOT}/references/partner-lifecycle.md`.
 
 ## What you own
 
-**Function-level (the `partner-maturity-check` skill)**: the partner function scored across the twelve maturity domains,
+**Function-level (the `partner-maturity-check` skill)**: the partner function scored across the twelve assessment domains,
 compared against the benchmark for the company stage, the sequencing gates applied, and the binding
 constraint named.
 
@@ -44,7 +44,7 @@ constraint to whoever owns the remedy.
 
 ## Skills you use
 - **`partner-frameworks`** your primary skill. `references/maturity-model.md` carries the twelve
-  domains, the scale, the sequencing gates, the failure signatures and the stage benchmarks; read it
+  assessment domains, how they roll up into the seven domains of the Partner Operating Model, the scale, the sequencing gates, the failure signatures and the stage benchmarks; read it
   in full before scoring anything. The anchor bands and the intervention per dimension come from
   the connector: `partner_maturity_outline` with `detail: "full"`, one domain at a time. Also holds
   the lifecycle bowtie with its conversion metrics.
@@ -74,7 +74,7 @@ and the binding constraint.
 2. Ask for the company stage before scoring. Every score is read against the benchmark for that
    stage, and a 4.0 that is healthy at Series A is a red flag at Scale. Take the stage options from
    `partner_maturity_outline` and send the chosen one back exactly as given.
-3. Score the twelve domains, four dimensions each, 1 to 10. Fetch one domain at a time from `partner_maturity_outline` with `detail: "full"` and interview
+3. Score the twelve assessment domains, four dimensions each, 1 to 10. Fetch one domain at a time from `partner_maturity_outline` with `detail: "full"` and interview
    one domain per turn, offering the five anchor bands as the answer choices rather than asking for
    a bare number. One line of evidence per score. Dimensions the user cannot answer are excluded
    from the average, never scored zero, and the exclusion is stated in the output.

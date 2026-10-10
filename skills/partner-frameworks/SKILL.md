@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Partner Frameworks
@@ -27,8 +27,9 @@ calibrated to the user's business.
 ### 1. Partner Program Maturity Model
 `${CLAUDE_PLUGIN_ROOT}/skills/partner-frameworks/references/maturity-model.md`
 
-Twelve domains, four dimensions each, every dimension scored 1 to 10 against five written anchor
-bands. `maturity-model.md` carries the structure, the scale, the sequencing gates that tell you what
+Twelve assessment domains, four dimensions each, every dimension scored 1 to 10 against five written
+anchor bands. They roll up into the seven domains of the Partner Operating Model, and the reference
+carries the mapping. `maturity-model.md` carries the structure, the scale, the sequencing gates that tell you what
 you are not allowed to build yet, the failure signatures, and the expected score per domain by
 company stage. That file is enough for scoring, sequencing and diagnosis.
 

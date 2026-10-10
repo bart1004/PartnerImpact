@@ -5,7 +5,7 @@ metadata:
   author: "Bart Dirksen"
   copyright: "© 2026 PartnerImpact (Bart Dirksen)"
   license: "CC-BY-4.0"
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 Assess the user's own partner function. Run this in the conversation; do not delegate to a
@@ -103,7 +103,7 @@ Then:
 
 - **Why that constraint, and what it blocks.** Two or three sentences naming what not to build yet
   and why building it now would not stick.
-- **The heatmap.** Each of the twelve domains with its score and band, and its delta against the
+- **The heatmap.** Each of the twelve assessment domains with its score and band, and its delta against the
   stage benchmark if a stage was given. Say once that the benchmarks are PartnerImpact working
   estimates rather than measured data.
 - **The other closed gates**, briefly, in sequence order.

@@ -1,12 +1,14 @@
 # Partner Program Maturity Model
 
-A diagnostic for how developed a partner function is. Twelve domains, four dimensions each,
-every dimension scored 1 to 10. The score is not the point. The sequencing is: a low score in
+A diagnostic for how developed a partner function is. Twelve assessment domains, four dimensions
+each, every dimension scored 1 to 10. The twelve roll up into the seven domains of the Partner
+Operating Model; the mapping is below. The score is not the point. The sequencing is: a low score in
 one domain forbids work in another, and most partner programs fail because they built a co-sell
 motion on top of a measurement function that could not tell sourced from influenced.
 
-Calibrate domain emphasis to the motion. A marketplace-led motion leans on Program and Data; a
-high-touch alliance motion leans on Co-Sell and Governance.
+Calibrate domain emphasis to the motion. A marketplace-led motion leans on Partner Program Design and
+Data & Attribution; a high-touch alliance motion leans on Co-Sell & GTM Execution and Governance &
+Cadence.
 
 The full rubric, all 240 anchor bands and 48 interventions, is served by the PartnerImpact
 connector (`partner_maturity_outline` with `detail: "full"`). Fetch it when you are running an
@@ -29,7 +31,7 @@ Each of the five written anchor bands spans two points. Score on evidence. Where
 Domain score is the unweighted mean of its scored dimensions. Overall is the unweighted mean of
 all scored dimensions. Dimensions you skip are excluded from the average, never counted as zero.
 
-## The twelve domains
+## The twelve assessment domains
 
 ### 1. Ecosystem Design & Strategy
 
@@ -139,6 +141,27 @@ all scored dimensions. Dimensions you skip are excluded from the average, never 
 - **Cross-functional integration (Product, Marketing, Finance)** `culture_crossfunctional`
 - **External recognition and partner-first identity** `culture_external`
 
+## How the twelve roll up into the Partner Operating Model
+
+The Partner Operating Model on partnerimpact.net describes a partner function in seven domains, in
+three groups, on an AI and automation foundation. The assessment scores the same function at finer
+grain. Each assessment domain belongs to exactly one operating-model domain.
+
+| Group | Operating-model domain | Assessment domains |
+|---|---|---|
+| Design | 01 Strategy & Ecosystem | Ecosystem Design & Strategy; Commercial Model Design |
+| Design | 02 Organization Design | Partner Organization Design |
+| Operate | 03 Program Architecture | Partner Program Design; Partner Enablement |
+| Operate | 04 GTM & Co-Sell Execution | Co-Sell & GTM Execution; Partner Marketing |
+| Operate | 05 Technology & Infrastructure | Partner Process & Operations |
+| Sustain | 06 Data & Measurement | Data & Attribution; Partner Performance Measurement |
+| Sustain | 07 Governance & Culture | Governance & Cadence; Partner-First Culture |
+
+Use it to say where a finding sits when the user thinks in the seven domains: a binding constraint
+in Partner Enablement is a Program Architecture problem. The scores, gates and benchmarks stay on
+the twelve. Do not average assessment scores into an operating-model score by hand. The model is
+described at https://www.partnerimpact.net/insights/partner-program-is-a-system.
+
 ## Sequencing gates
 
 A domain scoring below 3.6 (the Critical band) closes the gate below it.
@@ -215,7 +238,7 @@ Co-Sell is healthy at Series A and a red flag at Scale. Compare, then report the
 
 ## Output of an assessment
 
-1. **Heatmap.** Twelve domains scored, each banded.
+1. **Heatmap.** Twelve assessment domains scored, each banded.
 2. **Stage delta.** Each domain against its benchmark for the company stage.
 3. **Binding constraint.** The earliest closed gate, which closes the most downstream work. Name it explicitly.
 4. **Priority dimensions.** The three lowest, each with a root-cause hypothesis rather than a score. A quick
