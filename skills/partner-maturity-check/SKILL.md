@@ -38,23 +38,27 @@ block on it.
 
 Get the domains from the connector: `partner_maturity_outline` (the default detail is enough). It
 returns, per domain, the question the domain asks and its four dimensions. The written anchor bands
-exist per dimension only, so a quick assessment rates each domain on the model's five-band scale
+exist per dimension only, so a quick assessment rates each domain on the model's generic 1-5 scale
 instead. Do not compose domain-level band descriptions and present them as the connector's.
 
 Ask in **three messages of four domains**, in text. For each domain give the question the connector
-returned and its four dimension titles as what to weigh, then the same five lettered answers every
-time:
+returned and its four dimension titles as what to weigh, then the same five numbered answers every
+time: the outline's `quick_answers`, in the connector's words, so the chat and the panel ask the
+same thing. Give the descriptions only: never the band names (Critical, Developing, Defined,
+Managed, Optimised) next to the answers. The names describe the result, not the answer. If the
+outline returns no `quick_answers`, use these:
 
-a. Critical: not in place, or it depends on one person's memory
-b. Developing: happens, but ad hoc and different each time
-c. Defined: written down and mostly followed
-d. Managed: measured and reviewed on a cadence
-e. Optimised: measured, reviewed and improved from the data
+1. Not in place, or it depends on one person's memory
+2. Happens, but ad hoc and different each time
+3. Written down and mostly followed
+4. Measured and reviewed on a cadence
+5. Measured, reviewed and improved from the data
 
-The user replies like "1b 2c 3a 4d", with "?" for don't know. Say once that these five are the
-generic scale and that the full assessment replaces them with written bands per dimension.
+The user replies with one number per domain, in order, like "3 2 ? 4", with "?" for don't know.
+Say once that these five are the generic scale and that the full assessment replaces them with
+written descriptions per dimension.
 
-Score each domain at the middle of its band: a is 2, b is 4, c is 6, d is 8, e is 9.5.
+The answer is the score: a whole number from 1 to 5, passed as given. No halves, no conversion.
 
 A "?" is excluded from the average, never scored zero, and listed in the output. Someone who answers
 "?" to four domains still gets a result, and the gaps are part of what the result says.
@@ -62,10 +66,10 @@ A "?" is excluded from the average, never scored zero, and listed in the output.
 ## Full: forty-eight questions
 
 Fetch one domain at a time: `partner_maturity_outline` with `detail: "full"` and that domain. Each
-domain has four dimensions, each with five anchor bands and an intervention. Ask the four dimensions
-in one text message, bands lettered a to e in the connector's words; the user replies like
-"1b 2c 3a 4?". Score at the middle of the band as above, or take a number from 1 to 10 if the user
-gives one. Twelve messages in total; after each, say which domain is next and how many are left, and
+domain has four dimensions, each with five numbered answers and an intervention. Ask the four
+dimensions in one text message, each with its five answers numbered 1 to 5 in the connector's words
+and without band names; the user replies like "3 2 ? 4". The answer number is the score, a whole
+number from 1 to 5. Twelve messages in total; after each, say which domain is next and how many are left, and
 let the user stop early. Domains not reached are left out, never scored zero.
 
 ## Numbers
@@ -97,7 +101,9 @@ it:
 In a full assessment, a gate counts as closed only when at least half of that domain's dimensions
 were rated. If the three lowest dimensions tie, say they tie instead of ranking them.
 
-Report scores to one decimal. Without a stage, say that the benchmark comparison was skipped.
+Report scores as the connector returns them. Averages of whole answers land on quarters (2.25, 3.75),
+and rounding to one decimal would show a closed gate at 2.25 as 2.3, the gate itself. Without a
+stage, say that the benchmark comparison was skipped.
 
 Then:
 

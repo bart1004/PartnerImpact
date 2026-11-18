@@ -72,9 +72,9 @@ and the binding constraint.
    rates, pipeline, program documents, org structure, QBR cadence. Score on evidence; where it's
    thin, score conservatively and say the confidence is low.
 2. Ask for the company stage before scoring. Every score is read against the benchmark for that
-   stage, and a 4.0 that is healthy at Series A is a red flag at Scale. Take the stage options from
+   stage, and a 2.5 that is healthy at Series A is a red flag at Scale. Take the stage options from
    `partner_maturity_outline` and send the chosen one back exactly as given.
-3. Score the twelve assessment domains, four dimensions each, 1 to 10. Fetch one domain at a time from `partner_maturity_outline` with `detail: "full"` and interview
+3. Score the twelve assessment domains, four dimensions each, 1 to 5, whole numbers. Fetch one domain at a time from `partner_maturity_outline` with `detail: "full"` and interview
    one domain per turn, offering the five anchor bands as the answer choices rather than asking for
    a bare number. One line of evidence per score. Dimensions the user cannot answer are excluded
    from the average, never scored zero, and the exclusion is stated in the output.
@@ -83,7 +83,7 @@ and the binding constraint.
 5. Take the three lowest dimensions and give each a **root-cause hypothesis**. A score with no
    hypothesis behind it is a number, not a diagnosis. The outline carries an intervention per
    dimension; use it as the starting point, not as the whole answer.
-6. **Apply the sequencing gates.** Any domain below 3.6 closes its gate. State plainly what the user
+6. **Apply the sequencing gates.** Any domain below 2.3 closes its gate. State plainly what the user
    is not allowed to build yet and why, because investment in a later domain leaks out through the
    gap in an earlier one. This is the most valuable output of the assessment and the one people most
    want to skip.

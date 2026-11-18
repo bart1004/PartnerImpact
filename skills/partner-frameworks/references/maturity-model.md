@@ -1,7 +1,7 @@
 # Partner Program Maturity Model
 
 A diagnostic for how developed a partner function is. Twelve assessment domains, four dimensions
-each, every dimension scored 1 to 10. The twelve roll up into the seven domains of the Partner
+each, every dimension answered 1 to 5. The twelve roll up into the seven domains of the Partner
 Operating Model; the mapping is below. The score is not the point. The sequencing is: a low score in
 one domain forbids work in another, and most partner programs fail because they built a co-sell
 motion on top of a measurement function that could not tell sourced from influenced.
@@ -16,17 +16,19 @@ assessment interview. This file is enough for scoring, sequencing and diagnosis.
 
 ## Scoring scale
 
-Every dimension scores 1 to 10. Five written anchor bands, 2 points each.
+Every dimension is answered 1 to 5: five written descriptions, one point each. The answer is the
+number of the description that fits, a whole number. Ask with the descriptions alone; the band names
+below describe the result, not the answer.
 
-| Band | Range |
-|---|---|
-| Critical | 1 to 3 |
-| Developing | 3 to 5 |
-| Defined | 5 to 7 |
-| Managed | 7 to 9 |
-| Optimised | 9 to 10 |
+| Answer | Band | Domain average |
+|---|---|---|
+| 1 | Critical | below 2 |
+| 2 | Developing | 2 to 2.99 |
+| 3 | Defined | 3 to 3.99 |
+| 4 | Managed | 4 to 4.99 |
+| 5 | Optimised | 5 |
 
-Each of the five written anchor bands spans two points. Score on evidence. Where evidence is thin, score conservatively and say the confidence is low.
+Score on evidence. Where evidence is thin, score conservatively and say the confidence is low.
 
 Domain score is the unweighted mean of its scored dimensions. Overall is the unweighted mean of
 all scored dimensions. Dimensions you skip are excluded from the average, never counted as zero.
@@ -164,12 +166,12 @@ described at https://www.partnerimpact.net/insights/partner-program-is-a-system.
 
 ## Sequencing gates
 
-A domain scoring below 3.6 (the Critical band) closes the gate below it.
+A domain scoring below 2.3 (inside Developing, not on a band edge) closes the gate below it.
 Investment in a later domain leaks out through the gap in an earlier one. The gates run in the
 order below, so the **binding constraint is the earliest closed gate**: it closes everything after
 it. Say plainly which one it is.
 
-| Domain below 3.6 | What you are not allowed to build yet |
+| Domain below 2.3 | What you are not allowed to build yet |
 |---|---|
 | Ecosystem Design & Strategy | No program or process investment yet. |
 | Commercial Model Design | No recruitment at scale until the commercial model is decided. |
@@ -202,8 +204,8 @@ it. Say plainly which one it is.
 ## Failure signatures
 
 Patterns worth naming when you see them. A strong domain sitting next to a closed gate is usually
-more diagnostic than either score alone. Name one only when the high domain is Defined or better
-(5 and up), the low domain is below 3.6, and they are at least 2 points apart.
+more diagnostic than either score alone. Name one only when the high domain is comfortably Defined
+(3.1 and up), the low domain is below 2.3, and they are at least 1 point apart.
 
 - **High Ecosystem Design & Strategy, low Co-Sell & GTM Execution.** A beautiful deck and no field execution. The classic gap.
 - **High Partner Program Design, low Data & Attribution.** Tiers and benefits nobody can prove are working.
@@ -216,25 +218,25 @@ more diagnostic than either score alone. Name one only when the high domain is D
 
 ## Stage benchmarks
 
-Typical scores by company stage. Use these to say whether a score is a problem: a 4.0 in
+Typical scores by company stage. Use these to say whether a score is a problem: a 2.5 in
 Co-Sell is healthy at Series A and a red flag at Scale. Compare, then report the delta, not the raw score.
 
 **The figures are PartnerImpact working estimates of typical scores at each stage, not measured survey data.** Say so whenever you report a delta.
 
 | Domain | Seed | Series A | Series B | Series C | Scale | Enterprise |
 |---|---|---|---|---|---|---|
-| Ecosystem Design & Strategy | 2.8 | 4.0 | 4.8 | 6.0 | 6.8 | 7.6 |
-| Commercial Model Design | 2.4 | 3.2 | 4.0 | 5.2 | 6.4 | 7.2 |
-| Partner Organization Design | 2.4 | 3.6 | 4.4 | 5.6 | 6.4 | 7.2 |
-| Partner Program Design | 2.0 | 3.2 | 4.0 | 5.2 | 6.4 | 7.2 |
-| Partner Enablement | 2.0 | 3.2 | 4.0 | 5.2 | 6.0 | 6.8 |
-| Partner Marketing | 2.0 | 2.8 | 3.6 | 4.8 | 6.0 | 6.8 |
-| Co-Sell & GTM Execution | 2.0 | 3.2 | 4.0 | 5.2 | 6.0 | 6.8 |
-| Partner Process & Operations | 2.0 | 2.8 | 3.6 | 4.8 | 6.0 | 6.8 |
-| Data & Attribution | 2.0 | 3.2 | 4.0 | 5.2 | 6.4 | 7.2 |
-| Partner Performance Measurement | 2.0 | 2.8 | 3.6 | 4.8 | 6.0 | 6.8 |
-| Governance & Cadence | 2.4 | 3.2 | 4.0 | 5.2 | 6.0 | 6.8 |
-| Partner-First Culture | 2.4 | 3.6 | 4.0 | 5.2 | 6.0 | 7.2 |
+| Ecosystem Design & Strategy | 1.9 | 2.5 | 2.9 | 3.5 | 3.9 | 4.3 |
+| Commercial Model Design | 1.7 | 2.1 | 2.5 | 3.1 | 3.7 | 4.1 |
+| Partner Organization Design | 1.7 | 2.3 | 2.7 | 3.3 | 3.7 | 4.1 |
+| Partner Program Design | 1.5 | 2.1 | 2.5 | 3.1 | 3.7 | 4.1 |
+| Partner Enablement | 1.5 | 2.1 | 2.5 | 3.1 | 3.5 | 3.9 |
+| Partner Marketing | 1.5 | 1.9 | 2.3 | 2.9 | 3.5 | 3.9 |
+| Co-Sell & GTM Execution | 1.5 | 2.1 | 2.5 | 3.1 | 3.5 | 3.9 |
+| Partner Process & Operations | 1.5 | 1.9 | 2.3 | 2.9 | 3.5 | 3.9 |
+| Data & Attribution | 1.5 | 2.1 | 2.5 | 3.1 | 3.7 | 4.1 |
+| Partner Performance Measurement | 1.5 | 1.9 | 2.3 | 2.9 | 3.5 | 3.9 |
+| Governance & Cadence | 1.7 | 2.1 | 2.5 | 3.1 | 3.5 | 3.9 |
+| Partner-First Culture | 1.7 | 2.3 | 2.5 | 3.1 | 3.5 | 4.1 |
 
 ## Output of an assessment
 

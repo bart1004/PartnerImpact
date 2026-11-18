@@ -27,7 +27,7 @@ calibrated to the user's business.
 ### 1. Partner Program Maturity Model
 `${CLAUDE_PLUGIN_ROOT}/skills/partner-frameworks/references/maturity-model.md`
 
-Twelve assessment domains, four dimensions each, every dimension scored 1 to 10 against five written
+Twelve assessment domains, four dimensions each, every dimension scored 1 to 5 against five written
 anchor bands. They roll up into the seven domains of the Partner Operating Model, and the reference
 carries the mapping. `maturity-model.md` carries the structure, the scale, the sequencing gates that tell you what
 you are not allowed to build yet, the failure signatures, and the expected score per domain by
@@ -71,7 +71,7 @@ this table is a guide to which one answers which question.
 | Calculator | Use it to | Id |
 |---|---|---|
 | Partner Health | Apply the canonical health model: six red/amber/green reads and the three rules that decide at-risk | `partner-health` |
-| Partner Program Maturity Score | Turn 1-10 ratings into domain scores, stage deltas, the gates now closed and the binding constraint | `maturity-score` |
+| Partner Program Maturity Score | Turn 1-5 answers into domain scores, stage deltas, the gates now closed and the binding constraint | `maturity-score` |
 | Ideal Partner Profile Score | Score one partner against the default profile or the user's own dimensions and weights, with deal-breakers checked first and the distance to the band edge shown | `ipp-score` |
 | Recruitment-to-Activation Funnel | Work back from producing partners to the recruits it takes, and find the weakest stage | `recruitment-funnel` |
 | Pipeline Leak Finder | The partner funnel against a revenue target: required versus current volume at every stage | `pipeline-leak` |

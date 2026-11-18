@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2.0
+
+- The maturity assessment is answered 1 to 5: one number per written description, whole numbers
+  only. Questions show the five descriptions without the band names (Critical to Optimised); the
+  results still use them. Needs the PartnerImpact connector with calculators 2.0.0, which refuses
+  1-10 ratings, so release this together with the server update.
+- Every threshold moved with the scale, so the same answers give the same verdicts: the sequencing
+  gate closes below 2.3 (was 3.6), failure signatures need a high domain at 3.1 or above and a
+  1-point gap, and the stage benchmark table is converted the same way.
+- Scores are reported as the connector returns them, so a domain at 2.25 is not rounded up to the
+  2.3 gate.
+
 ## 1.1.2
 
 - The trusted source on partnership practice is now the whole site, https://www.partnerimpact.net,
